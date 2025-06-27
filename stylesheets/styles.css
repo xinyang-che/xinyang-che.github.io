@@ -110,7 +110,7 @@ a:hover {
 .pub-authors {
   margin: 0;
   font-size: 14px;
-  color: #555;
+  color: #000;
 }
 
 .pub-desc {
@@ -119,6 +119,10 @@ a:hover {
   color: #333;
 }
 
+strong {
+  color: #333;
+  font-weight: 600;
+}
 
 a small {
   font-size:11px;
