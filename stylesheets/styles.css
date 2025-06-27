@@ -78,6 +78,48 @@ a:hover {
   color: #00274d;
 }
 
+.publication {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+
+.pub-img {
+  width: 150px;
+  height: auto;
+  margin-right: 20px;
+  border: 1px solid #ccc;
+}
+
+.pub-text {
+  max-width: 800px;
+}
+
+.pub-title {
+  font-weight: bold;
+  color: #0056b3;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.pub-title:hover {
+  text-decoration: underline;
+}
+
+.pub-authors {
+  margin: 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.pub-desc {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #333;
+}
+
+
 a small {
   font-size:11px;
   color:#777;
