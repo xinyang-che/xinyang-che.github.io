@@ -124,10 +124,6 @@ a:hover {
   color: #333;
 }
 
-strong {
-  color: #333;
-  font-weight: 600;
-}
 
 a small {
   font-size:11px;
@@ -141,7 +137,7 @@ a:hover small {
 }
 
 .wrapper {
-  width:860px;
+  width:900px;
   margin:0 auto;
 }
 
@@ -240,8 +236,8 @@ header ul a:active {
 }
 
 strong {
-  color:#222;
-  font-weight:500;
+  color:#000;
+  font-weight: bold;
 }
 
 header ul li + li + li {
