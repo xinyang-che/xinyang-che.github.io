@@ -94,6 +94,11 @@ a:hover {
 .pub-text {
   max-width: 800px;
 }
+.pub-text p {
+  margin: 4px 0; /* 上下 4px，左右 0 */
+  line-height: 1.4;
+}
+
 
 .pub-title {
   font-weight: bold;
