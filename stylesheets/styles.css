@@ -190,7 +190,7 @@ header {
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
-  top: -10px;
+  top: -0px;
 }
 
 header ul {
