@@ -190,7 +190,7 @@ header {
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
-  top:6px;
+  top:10px;
 }
 
 header ul {
@@ -358,18 +358,30 @@ footer {
   border-left: 3px solid #00274d;
 }
 
-.quote-text{
+/* .quote-text{
   margin: 0;
   font-size: 15px;       /* 字号 */
-  font-style: italic;    /* 是否斜体 */
-  color: #00274d;        /* 颜色 */
-  line-height: 1.5;
+  /* font-style: italic;    /* 是否斜体 */
+  /* color: #00274d;        /* 颜色 */
+  /* line-height: 1.5; */
+/* } */
+
+/* .quote-meta{
+  margin: 6px 0 0;
+  text-align: right;     /* 右侧对齐 */
+  /* font-size: 14px;       /* 字号 */
+  /* color: #4b5563;        /* 颜色 */
+  /* font-weight: 600;      /* 粗细 */
+/* }  */
+.quote-text{
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: 16px;
+  font-style: italic;
+  color: #2c3440;
 }
 
 .quote-meta{
-  margin: 6px 0 0;
-  text-align: right;     /* 右侧对齐 */
-  font-size: 14px;       /* 字号 */
-  color: #4b5563;        /* 颜色 */
-  font-weight: 600;      /* 粗细 */
+  font-size: 13px;
+  color: #7a7a7a;
+  text-align: right;
 }
