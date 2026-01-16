@@ -190,7 +190,7 @@ header {
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
-  top:3px;
+  top:6px;
 }
 
 header ul {
@@ -353,8 +353,9 @@ footer {
 }
 /* Quote block above About Me */
 .quote-block{
-  margin: 0 0 18px;      /* 控制与 About Me 的间距 */
-  padding: 0;
+  margin: 0 0 18px;
+  padding-left: 14px;
+  border-left: 3px solid #00274d;
 }
 
 .quote-text{
@@ -368,7 +369,7 @@ footer {
 .quote-meta{
   margin: 6px 0 0;
   text-align: right;     /* 右侧对齐 */
-  font-size: 13px;       /* 字号 */
+  font-size: 14px;       /* 字号 */
   color: #4b5563;        /* 颜色 */
   font-weight: 600;      /* 粗细 */
 }
